@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>List-with style</title>
+  <style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        max-width: 900px;
+        margin: 30px auto;
+    }
+    dt {
+      font-weight: bold;
+      display: inline;
+    }
+    dd {
+      display: inline;
+      margin-left: 8px;
+    }
+    img {
+      margin-right: 5px;
+      vertical-align: middle;
+    }
+    ul{
+        background-color: green;
+        margin: 12px;
+        padding: 3px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    li{
+        padding: 15px;
+        margin: 15px;
+        list-style: none;
+        color: black;
+        background: #ccc;
+        border-radius: 8px;
+        line-height: 1.6;
+        
+    }
+    .second{
+        border: 2px dashed black;
+    }
+  </style>
+  </head>
+  <body>
+    <!--Customize Bullets-->
+
+    <dl>
+      <dt><img src="star.gif" width="12" height="12" alt="star" />HTML:</dt>
+      <dd>
+        (Hypertext Markup Language) is the standard code used to structure a web
+        page and its content. It acts as the skeleton of any website, telling
+        your web browser exactly how to display headings, paragraphs, links, and
+        images.
+      </dd>
+    </dl>
+    <!---Customize the spacing-->
+    <ul>
+      <li class="first">
+        HTML <strong>(HyperText Markup Language)</strong> is the standard code
+        used to structure a web page and its content.
+      </li>
+      <li class="second">
+      <strong>CSS (Cascading Style Sheets) </strong>is the standard style sheet language used
+        to design, format, and structure the presentation of web pages written
+        in HTML
+      </li>
+    </ul>
+  </body>
+</html>
