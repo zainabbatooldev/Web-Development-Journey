@@ -1,0 +1,54 @@
+
+        img {
+            height: 200px;
+            width: 200px;
+            padding: 15px;
+
+        }
+        h1 {
+            color: white;
+            background-color: royalblue;
+            font-family: 'Courier New', Courier, monospace;
+            border: 2px solid black;
+            padding: 2px;
+            text-align: left;
+        }
+
+        .link{
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+            background-color: dodgerblue;
+            border-radius: 5px;
+            margin: 20px
+        }
+        a:visited{
+            color: green;
+           }
+        p{
+            background-color: lightblue;
+            color:black;
+            margin: 0;
+            padding: 10px;
+            border: 2px solid black;
+        }
+        h4 {
+            background-color: green;
+            color: white;
+            display: inline;
+            padding: 10px;
+            border: 10px;
+            border-radius: 5px;
+            margin: 25px;
+
+        }
+        nav{
+            display: inline;
+        }
+        
+        a:hover{
+            background-color: darkred;
+            color: yellow;
+        }
+        
+        
