@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms-Basics</title>
+  </head>
+  <body>
+    <form>
+      <h3>Sign In</h3>
+      <!--Text-->
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" placeholder="Here.." />
+      <br />
+      <br />
+      <!--password-->
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" />
+      <hr />
+
+      <!--Search box-->
+      <label for="query">Search:</label>
+      <input
+        type="search"
+        name="query"
+        id="query"
+        placeholder="Enter your query here..."
+      />
+      <br />
+      <br />
+      <!--Textarea-->
+      <label for="comments">Comments:</label>
+      <textarea
+        name="comments"
+        id="comments"
+        cols="30"
+        rows="4"
+        placeholder=" Type your comment here.."
+      >
+      </textarea>
+      <hr />
+      <!--radio-->
+      <input type="radio" id="male" name="gender" value="male" />
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female">Female</label>
+      <br />
+      <hr />
+      <!--drop down-->
+      <label for="fruit">Choose a fruit:</label>
+      <select name="fruits" id="fruit">
+        <option value="ba">Banana</option>
+        <option value="ap">Apple</option>
+        <option value="or">Orange</option>
+      </select>
+      <hr />
+      <!--checkbox-->
+      <input type="checkbox" name="services" value="Graphic designs" />Graphic
+      Design <br />
+      <input type="checkbox" name="services" value="packaging" />Packaging
+      <br />
+      <!--date-->
+      <label for="dob">What is your birthday?</label>
+      <input type="date" id="dob" name="dob" /><br /><br />
+      <!--datetime-->
+      <label for="servicetime">Service begin time??</label>
+      <input
+        type="datetime-local"
+        id="servicetime"
+        name="services"
+      /><br /><br />
+      <!--color-->
+      <label for="shirtcolor">Shirt Color:</label>
+      <input type="color" id="shirtcolor" name="ShirtColor" />
+      <!--file-->
+      <label for="photo">Upload Photo:</label>
+      <input type="file" id="photo" name="photo" />
+      <!--email -->
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+      <!--button-->
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

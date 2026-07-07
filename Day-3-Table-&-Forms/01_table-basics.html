@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table-Basics</title>
+    <style>
+      body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      table {
+        border: 3px solid black;
+        border-collapse: collapse;
+      }
+      thead {
+        background-color: black;
+        color: white;
+      }
+      tfoot {
+        caption-side: bottom;
+        font-size: 10pt;
+        font-style: italic;
+      }
+      tbody {
+        background-color: white;
+        color: black;
+        border: 1px solid black;
+      }
+      td,
+      th {
+        padding: 10px;
+      }
+      td,
+      th {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th>Fruits</th>
+          <th>Vegetables</th>
+        </tr>
+      </thead>
+      <tfoot>
+        <tr>
+          <td colspan="2">This is table.</td>
+        </tr>
+      </tfoot>
+      <tbody>
+        <tr>
+          <td>Mango</td>
+          <td>Potatoes</td>
+        </tr>
+        <tr>
+          <td>Orange</td>
+          <td>Spinach</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

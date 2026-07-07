@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>School Registration Form</title>
+  </head>
+  <body>
+    <img src="image.png" height="100" width="100" alt="Random" />
+    <h3>Student Registration Form</h3>
+    <hr />
+    <form>
+      <div>
+        <label>Student Name</label>
+      </div>
+      <input type="text" id="FirstName" name="FirstName" placeholder="First" />
+      <input type="text" id="LastName" name="LastName" placeholder="Last" />
+
+      <div>
+        <label for="dob">Date of Birth</label>
+      </div>
+      <div>
+        <input type="date" id="dob" name="dob" />
+      </div>
+      <div>
+        <label>Gender</label>
+      </div>
+      <div>
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Female</label>
+      </div>
+      <div>
+        <label>Address: </label>
+      </div>
+      <div>
+        <input
+          type="text"
+          id="street1"
+          name="street1"
+          placeholder="Street Address"
+        />
+      </div>
+      <div>
+        <input
+          type="text"
+          id="street2"
+          name="street2"
+          placeholder="Street Address Line 2"
+        />
+      </div>
+      <div>
+        <input type="text" id="city" name="city" placeholder="City" />
+      </div>
+
+      <div>
+        <input
+          type="text"
+          name="postal"
+          id="postal"
+          placeholder="Postal / Zip Code"
+        />
+        <select id="country" name="country">
+          <option>Pakistan</option>
+          <option>India</option>
+          <option>China</option>
+          <option>Turkey</option>
+          <option>Romania</option>
+        </select>
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Email" />
+      </div>
+
+      <div>
+        <label for="phone">Phone Number:</label>
+        <input
+          type="tel"
+          id="phone"
+          name="Phonenumber"
+          placeholder="Phone Number"
+        />
+      </div>
+      <button type="submit">Register</button>
+      <button type="reset">Reset</button>
+    </form>
+  </body>
+</html>
