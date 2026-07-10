@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Selectors</title>
+    <style>
+      /* Element Selector */
+      div {
+        background-color: brown;
+        color: white;
+      }
+
+      /* class Selector */
+      .red {
+        background-color: blue;
+      }
+      /* id Selector */
+      #blue {
+        background-color: blueviolet;
+      }
+      /* Child Selector */
+      
+      div > p {
+          font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        }
+        /* Descendent Selector */
+        div p {
+            font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+            "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        }
+        /* universal Selector */
+        *{
+            padding: 0;
+            
+        }
+        /* pseudo Selector */
+        a:visited{
+            color: black;
+        }
+        a:link{
+            color: blue;
+        }
+        a:active{
+            background-color: blueviolet;
+        }
+        a:hover{
+            background-color: aqua;
+        }
+        p:first-child{
+            background-color: red;
+        }
+        input:focus{
+            border: 2px solid black;
+            background-color: lightblue ;
+        }
+
+    </style>
+  </head>
+
+  <body>
+    <input type="text" placeholder="Enter your name">
+    <main class="first">
+        <p>i am first</p>
+        <p>i am second</p>
+    </main>
+    <div>
+      i am div
+      <article>
+        <p>i am a div.</p>
+      </article>
+    </div>
+    <div class="red">i am a div.</div>
+    <div id="blue">i am a div.</div>
+    <a href="https://www.google.com">Go to Google</a>
+    <a href="https://www.facebook2.com">Go to Facebook</a>
+  </body>
+</html>
